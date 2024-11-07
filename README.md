@@ -1,41 +1,80 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # test-colmena
 Test front end
 =======
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+=======
+# Post management
+
+This project uses Next js with TypeScript and Tailwind to provide a modern and efficient development environment.
+>>>>>>> 1ce99ae (Test front end)
 
 ## Getting Started
 
-First, run the development server:
+### Prerequisites
 
-```bash
+Make sure you have [Node.js](https://nodejs.org/) and [npm](https://www.npmjs.com/) installed on your machine.
+
+### Installation
+
+bash
+
+# Install dependencies
+
+npm install
+
+# Usage
+
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## ESLint Configuration
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+For developing a production application, it is recommended to update the ESLint configuration to enable type-aware lint rules. Follow these steps:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Scripts
 
-## Learn More
+- dev: Start the Vite development server.
+- build: Compile the project using TypeScript and Vite.
 
-To learn more about Next.js, take a look at the following resources:
+Main Dependencies
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- @reduxjs/toolkit: Utilities for state management with Redux.
+- react, react-dom: Core React libraries.
+- react-redux: Redux integration for React.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Development Dependencies
 
-## Deploy on Vercel
+- @types/react, @types/react-dom: TypeScript types for React.
+- @typescript-eslint/eslint-plugin, @typescript-eslint/parser: ESLint integration for TypeScript.
+- eslint, eslint-plugin-react-hooks, eslint-plugin-react-refresh: Linting tools for JavaScript/TypeScript - and React.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Project Structure
 
+<<<<<<< HEAD
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
 >>>>>>> 492117b (Initial commit from Create Next App)
+=======
+test-frontend-app/
+│
+├── src/
+│ ├── app/
+│ ├── components/
+│ │ ├── post/
+│ │ ├── shared/
+│ ├── hooks/
+│ ├── http/
+│ ├── interfaces/
+│ ├── services/
+│ │ ├── localStorage
+│ │ ├── postService
+│ ├── store/
+│ │ ├── slices/
+│ │ ├── index.ts (barrel file)
+│ │ ├── store.ts
+
+- src/: Contains the source code of the application.
+- components/: Reusable components used within the module.
+- hooks/: Custom hooks.
+- store/: Centralized state management for the entire application.
+>>>>>>> 1ce99ae (Test front end)

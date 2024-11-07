@@ -65,6 +65,7 @@ export const usePostList = () => {
 
     const handleDelete = (id: number) => {
         setError('Post delete successfuly');
+        dispatch(setPostList(getLocalPosts().filter(post => post.id !== id)));
         deleteLocalPost(id);
     };
 
